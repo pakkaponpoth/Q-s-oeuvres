@@ -1,7 +1,22 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">           <!-- ① Added language attribute -->
 <head>
-    <title>My entire oeuvres</title>
+  <meta charset="UTF-8">    <!-- ② Ensures correct character display (very important for non-English text) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- ③ Makes it mobile-friendly -->
+  <title>my entire oeuvres</title>  
+  <meta name="description" content="Fragments, short prose and morbid introspection by a lowkey wannabe writer.">  
+  <meta property="og:title" content="Personal Projection Stream">
+  <meta property="og:description" content="A place for stark, introspective writing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pakkaponpoth.github.io/Q-s-oeuvres/">
+  <meta property="og:image" content="https://pakkaponpoth.github.io/Q-s-oeuvres/og-image.jpg">
+<meta name="author" content="Pakkapon Pothisorn">
+<meta name="keywords" content="Q's oeuvres,literary effusion,writing, prose, fragments, introspection, literature">
+<meta property="og:site_name" content="Personal Projection Stream">
+<meta name="author" content="Pakkapon Q">
+
+
     <style>
 body { 
     font-family: 'Georgia', serif; 
@@ -31,23 +46,42 @@ a:hover { color: #ff0000; text-decoration: underline; }
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1a1a1a; /* Deep charcoal */
-        color: #e0e0e0; /* Soft white */
+        color: #b1a9a9; 
     }
     h1 { border-bottom: 1px solid #444; }
     .writing-item { border-bottom: 1px dashed #444; }
-    a { color: #ff4d4d; } /* Brighter red for visibility */
+    a { color: #9910e3; } 
+    .tagline {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  margin-top: -10px;
+}
+
 }
     </style>
 </head>
 <body>
+   <header>                  
     <h1>personal projection stream</h1>
-    <p>Bienvenidos to my corner of the internet, my sanctuary, my sacred place where I host my very own writings. I prefer introspectiveness and starkness in my pieces so does the header so here it is. Im just a lowkey wannabe writer searching, reaching for my own voice and narration. Nevertheless as the saying goes, true prodigies like Kafka or Clarice Lispector are the rare exceptions (while im rather a prodigal soul), they are seldom seen, few and far between. 
-    However by letting and publishing these pieces of mine will spark some joy and will to live in me.
+    <p class="tagline">fragments • introspection • starkness</p>  
+  </header>
+  <main>
+    <section class="about">
+    <p> A place to demystify the components of a morbidly built person. Since i prefer introspectiveness and starkness in my pieces so does the header so here it is. Im just a lowkey wannabe writer searching, reaching for my own voice and narration. Nevertheless as the saying goes, true prodigies like Kafka or Clarice Lispector are the rare exceptions (while im rather a prodigal soul), they are seldom seen, few and far between. 
+    However by letting and publishing these pieces of mine will spark some joy and will to live in me. </p></section>
+
     <ul class="writing-list">
             <li class="writing-item">
     <h3><a href="girl-is-a-gun.txt">Girl is a gun</a></h3>
     <p>i guess this is where it begins...</p>
 </li>
     </ul>
-</body>
+
+    </main>
+<footer>                  
+    <p>© 2026 – Pakkapon Q• <a href="mailto:kuepothisorn@gmail.com">bienvenidos</a>
+ • <a href="https://www.instagram.com/7qq_qe/">just in case</a></p>
+  </footer>
+</body>   
 </html>
